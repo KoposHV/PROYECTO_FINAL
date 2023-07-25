@@ -1,0 +1,27 @@
+header a{
+    font-size:24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#tour-link{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#acerca-link{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+#musica-link{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+#inicio-link{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  
+}

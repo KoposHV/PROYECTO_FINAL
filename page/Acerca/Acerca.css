@@ -1,0 +1,35 @@
+main .portrait {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    
+    
+}
+main details {
+    
+    padding: 0px;
+    padding-bottom: 20px;
+}
+main details p {
+    width: 100%;
+    padding-top: 0px;
+    
+}
+
+main {
+    gap: 20px;
+    padding: 0 30px;
+
+}
+main .p {
+    width: 80%;
+    text-align: justify;
+}
+em {
+    color: rgb(40, 24, 92);;
+}

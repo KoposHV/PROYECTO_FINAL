@@ -1,0 +1,48 @@
+body {
+background-color: #870000ba;
+background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+min-height: 100%;
+}
+:root {
+    font-family: 'New Rocker', cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: rgb(33, 22, 68);
+    transition: 0.4s;
+
+}
+a:hover {
+    color:rgb(246, 5, 5)
+    
+}
+li {
+  list-style-type: none;  
+}
+main {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  main > *{
+
+    animation: fadeIn 0.5s;
+  }
+  @keyframes fadeIn {
+    0%{
+      opacity: 0
+    }
+  
+    100%{
+      opacity: 1
+    }
+  }
+  
