@@ -2,8 +2,10 @@ import "./Navigator.css";
 const template = () => {
     return `
     <nav>
+        <label for="hamburguesa">≡</label>
+        <input type="checkbox" id="hamburguesa" />
       <ul>
-        <li>
+      <li>
           <a href="#null" id="inicio-link">Inicio</a>
         </li>
         <li>
@@ -16,7 +18,7 @@ const template = () => {
           <a href="#null" id="tour-link">Tour</a>
         </li>
       </ul>
-    </nav>
+     </nav>
     `;
   };
   const Navigator = () => {
