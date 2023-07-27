@@ -28,6 +28,7 @@ header a{
 
 /*MAQUETACIÓN HAMBURGUESA*/
 
+/* Ocultamos por defecto el menú hamburguesa*/
 label {
   display: none;
 }
@@ -61,7 +62,7 @@ input {
 nav label {
   padding: 20px;
   padding-top: 10px;
-  color: rgb(109, 8, 8);
+  color: rgb(98, 7, 7);
   justify-content: center;
 
 }
